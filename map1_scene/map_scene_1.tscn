@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://de3hdveir3pf8"]
+
+[ext_resource type="PackedScene" uid="uid://b1bq5wxkqjs6w" path="res://assets/end.fbx" id="1_2pk7t"]
+[ext_resource type="PackedScene" uid="uid://41os87g1kt1j" path="res://assets/straight_double.fbx" id="2_35klm"]
+[ext_resource type="PackedScene" uid="uid://drkcsd3jl4kcq" path="res://assets/hole_end.fbx" id="3_rv3jh"]
+
+[node name="Map1Scene" type="Node3D"]
+
+[node name="end" parent="." instance=ExtResource("1_2pk7t")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="straight_double" parent="." instance=ExtResource("2_35klm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="straight_double2" parent="." instance=ExtResource("2_35klm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+
+[node name="straight_double3" parent="." instance=ExtResource("2_35klm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+
+[node name="hole_end" parent="." instance=ExtResource("3_rv3jh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8)
