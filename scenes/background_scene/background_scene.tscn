@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cj02dxn55j1dr"]
+
+[ext_resource type="Texture2D" uid="uid://bfssmlfqvgeqg" path="res://assets/backgrounds/colored-background.jpg" id="1_5da0x"]
+
+[node name="BackgroundScene" type="Node2D"]
+
+[node name="BackgroundImage" type="Sprite2D" parent="."]
+position = Vector2(582, 324)
+scale = Vector2(0.877914, 0.684172)
+texture = ExtResource("1_5da0x")
