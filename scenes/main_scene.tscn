@@ -11,4 +11,8 @@ script = ExtResource("1_scigd")
 [node name="Timer" type="Timer" parent="."]
 wait_time = 1.5
 
+[node name="Timer2" type="Timer" parent="."]
+wait_time = 0.3
+
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="Timer2" to="." method="_on_timer_2_timeout"]

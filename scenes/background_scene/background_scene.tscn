@@ -3,9 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://bfssmlfqvgeqg" path="res://assets/backgrounds/colored-background.jpg" id="1_5da0x"]
 
 [node name="BackgroundScene" type="Node2D"]
-position = Vector2(0, -1)
 
-[node name="Colored-background" type="Sprite2D" parent="."]
+[node name="BackgroundImage" type="Sprite2D" parent="."]
 position = Vector2(582, 324)
-scale = Vector2(-0.877914, -0.684172)
+scale = Vector2(0.877914, 0.684172)
 texture = ExtResource("1_5da0x")
